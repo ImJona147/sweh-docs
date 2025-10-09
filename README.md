@@ -25,7 +25,7 @@ Este sistema fue desarrollado con el objetivo de **optimizar la creación, organ
 
 ***
 
-### Acceso al sistema
+## Acceso al sistema
 
 > 📎 **Sitio web oficial:** [https://sistemahorarios.me](https://sistemahorarios.me/login)
 
