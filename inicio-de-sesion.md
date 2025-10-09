@@ -18,7 +18,7 @@ layout:
 
 # Inicio de sesión
 
-### Credenciales
+## Credenciales
 
 Para acceder al sistema, es necesario contar con las credenciales correctas. Estas garantizan que el usuario pueda ingresar y continuar con las operaciones dentro del sistema.
 
@@ -44,7 +44,7 @@ Existen otros errores que pueden presentarse por causas externas al sistema y qu
 
 ***
 
-### Dashboard
+## Dashboard
 
 El **panel de control (dashboard)** muestra información general sobre el estado del sistema y confirma si todo está correctamente configurado cuando se habilita un nuevo **semestre**.
 
@@ -70,11 +70,11 @@ Para más detalles sobre los semestres y sus funcionalidades, consulta la secci�
 
 Estas configuraciones se realizan una sola vez, ya que contienen información base que no cambia con frecuencia.
 
-1. [<mark style="color:orange;">**Agregar materias**</mark>](https://docs.sistemahorarios.me/tDaJOooJQpDbSTEIS4kV/recursos-academica/materias): muestra el total de materias registradas.
-2. [<mark style="color:blue;">**Agregar docentes**</mark>](https://docs.sistemahorarios.me/tDaJOooJQpDbSTEIS4kV/recursos-academica/docentes): muestra el total de docentes registrados.
-3. [<mark style="color:red;">**Agregar grupos**</mark>](https://docs.sistemahorarios.me/tDaJOooJQpDbSTEIS4kV/recursos-academica/grupos): muestra el total de grupos registrados.
-4. [<mark style="color:green;">**Crear semestre**</mark>](https://docs.sistemahorarios.me/tDaJOooJQpDbSTEIS4kV/recursos-academica/semestres): muestra el total de semestres creados.
-5. [**Configuración general**](https://docs.sistemahorarios.me/tDaJOooJQpDbSTEIS4kV/otros/configuracion): indica si se ha establecido correctamente la información académica general.
+1. **Agregar materias**: muestra el total de materias registradas.
+2. **Agregar docentes**: muestra el total de docentes registrados.
+3. **Agregar grupos**: muestra el total de grupos registrados.
+4. **Crear semestre**: muestra el total de semestres creados.
+5. **Configuración general**: indica si se ha establecido correctamente la información académica general.
 
 Además, se muestra una **barra de progreso** que refleja el avance a medida que se completa cada paso.
 
@@ -100,9 +100,9 @@ Si todos los pasos anteriores se realizaron correctamente, esta sección no debe
 
 Los siguientes pasos son <mark style="color:red;">**IMPORTANTES**</mark> y deben realizarse cada vez que se crea un nuevo semestre académico, ya que contienen información fundamental para la elaboración de los horarios.
 
-6. [**Asignar materias a los grupos**](https://docs.sistemahorarios.me/tDaJOooJQpDbSTEIS4kV/relaciones/materias-con-grupos): Permite definir qué materias se imparten en cada grupo, optimizando la creación de horarios al mostrar solo las materias relevantes.
-7. [**Asignar docentes a materias**](https://docs.sistemahorarios.me/tDaJOooJQpDbSTEIS4kV/relaciones/docentes-con-materias): Asocia las materias a los docentes responsables, lo cual es esencial para reflejar correctamente los horarios finales de cada docente.
-8. [**Asignar docentes a grupos**](https://docs.sistemahorarios.me/tDaJOooJQpDbSTEIS4kV/relaciones/asignacion-de-docente-a-grupos): Este paso permite vincular docentes con los grupos asignados. Es posible que una misma materia tenga `uno o más` docentes.
+6. **Asignar materias a los grupos**: Permite definir qué materias se imparten en cada grupo, optimizando la creación de horarios al mostrar solo las materias relevantes.
+7. **Asignar docentes a materias**: Asocia las materias a los docentes responsables, lo cual es esencial para reflejar correctamente los horarios finales de cada docente.
+8. **Asignar docentes a grupos**: Este paso permite vincular docentes con los grupos asignados. Es posible que una misma materia tenga `uno o más` docentes.
 
 {% hint style="warning" %}
 Recuerda: esta configuración debe realizarse **cada vez que se crea un nuevo semestre escolar**.
