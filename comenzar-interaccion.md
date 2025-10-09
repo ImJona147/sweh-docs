@@ -16,7 +16,7 @@ layout:
     visible: true
 ---
 
-# Inicio de sesión
+# Comenzar interacción
 
 ## Credenciales
 
@@ -28,7 +28,7 @@ Para acceder al sistema, es necesario contar con las credenciales correctas. Est
 
 <figure><img src="https://427283098-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fc3Xztvbl6hZF1pSc3D5c%2Fuploads%2FVgiEHe42xtqY2W9NeWkm%2F1.png?alt=media&#x26;token=04326a8b-6a7a-4c26-881e-11e4acc0888a" alt=""><figcaption></figcaption></figure>
 
-Si las credenciales son correctas, el sistema redirigirá automáticamente al #dashboard.\
+Si las credenciales son correctas, el sistema redirigirá automáticamente al [#dashboard](comenzar-interaccion.md#dashboard "mention").\
 En caso contrario, se mostrarán algunos de los siguientes errores comunes:
 
 {% hint style="warning" %}

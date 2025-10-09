@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Inicio](README.md)
-* [Inicio de sesión](inicio-de-sesion.md)
+* [Comenzar interacción](comenzar-interaccion.md)
 
 ## recursos académica
 
