@@ -1,0 +1,6 @@
+---
+icon: gears
+---
+
+# Configuración
+
