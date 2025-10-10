@@ -30,8 +30,54 @@ Estas herramientas son útiles para mejorar la búsqueda de los grupos y ser má
 
 ### Filtrar por rango
 
+En el selector tenemos diferentes valores, y estos valores van de acuerdo con los grupos, si se selecciona alguno de ellos en automático se mostrarán las materias con ese rango seleccionado.
 
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 195245.png" alt="" width="416"><figcaption></figcaption></figure>
+
+En este caso se selecciono el `rango` de 200 y nos esta mostrando los grupos que entra en ese valor.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 195427.png" alt=""><figcaption></figcaption></figure>
 
 ### Filtrar por tuno
 
+En el selector de turno es algo más sencillo, ya que solo se tiene dos valores
+
+1. Matutino
+2. Vespertino
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Ahora, si se aplica el filtro del turno y a la vez el de rango, los valores mostrados serán menos y más precisos.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 ### Agregar grupo
+
+Para poder crear un nuevo grupo se requiere de lo siguiente.
+
+1. <mark style="color:yellow;">**Nombre del grupo:**</mark> entre `3` y `5` caracteres
+2. <mark style="color:green;">**Turno:**</mark> en el turno se despliega un selector en donde se muestran los valores `Matutino` y `Vespertino`.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 200621.png" alt="" width="379"><figcaption></figcaption></figure>
+
+{% include "../.gitbook/includes/actionerror.md" %}
+
+## Información obtenida
+
+Una vez creado el nuevo grupo, se mostrará de la siguiente manera, en donde también se podrá realizar algunas acciones.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 201449.png" alt=""><figcaption></figcaption></figure>
+
+### Editar
+
+Al editar un grupo, se aplican las mismas validaciones que al crear. Los campos se rellenan automáticamente con los datos actuales.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 201539.png" alt="" width="381"><figcaption></figcaption></figure>
+
+{% include "../.gitbook/includes/actionerror.md" %}
+
+### Eliminar
+
+Esta acción es irreversible y eliminará completamente la información de la base de datos. Lee cuidadosamente la confirmación antes de proceder.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 201857.png" alt="" width="239"><figcaption></figcaption></figure>

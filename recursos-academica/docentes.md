@@ -12,7 +12,7 @@ Página principal donde se muestran todos los `docentes` registradas en el siste
 
 Esta vista incluye herramientas para gestionar los docentes:
 
-1. **Agregar docente:** permite añadir nuevas materias al sistema.
+1. **Agregar docente:** permite añadir nuevos docentes al sistema.
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 142302.png" alt="" width="495"><figcaption></figcaption></figure>
 
@@ -36,7 +36,7 @@ Los archivos se descargan en formato de tabla con plantillas sencillas y predete
 
 ### Importar
 
-Para agilizar la carga de materias, especialmente en el primer uso, puedes importar un archivo ![](../.gitbook/assets/excel-24.svg) con el siguiente formato:
+Para agilizar la carga de docentes, especialmente en el primer uso, puedes importar un archivo ![](../.gitbook/assets/excel-24.svg) con el siguiente formato:
 
 {% code title="formato.xlsx" overflow="wrap" lineNumbers="true" fullWidth="true" %}
 ```csv
@@ -65,7 +65,7 @@ Cuando tengas el archivo listo, usa el botón <mark style="color:green;">**Impor
 
 ### Nuevo docente
 
-Para crear una materia individual, completa los siguientes campos:
+Para crear un docente individual, completa los siguientes campos:
 
 1. <mark style="color:green;">**Nombre del docente:**</mark> entre 10 y 50 caracteres. El sistema no permitirá exceder el límite.
 
