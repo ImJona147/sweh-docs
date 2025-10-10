@@ -4,93 +4,96 @@ icon: person-chalkboard
 
 # Docentes
 
-Página inicial donde se muestran todos los docentes dados de alta en el sistema. Si no hay registros, se mostrará un mensaje indicándolo.
+## Primeros pasos
 
-En esta vista encontrarás opciones y herramientas para gestionar docentes:
+Página principal donde se muestran todos los `docentes` registradas en el sistema. Si no hay registros, aparecerá un mensaje indicándolo.
 
-1. Agregar docente.
-2. Importar docentes desde Excel para cargas masivas.
-3. Exportar todos los docentes (PDF, Word, Excel).
-4. Buscar, cambiar vista y realizar acciones sobre cada registro.
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 184325.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 092836.png" alt=""></figure>
+Esta vista incluye herramientas para gestionar los docentes:
 
-En la parte superior hay controles útiles:
+1. **Agregar docente:** permite añadir nuevas materias al sistema.
 
-- Barra de búsqueda: busca por nombre o matrícula.
-- Vistas: alterna entre cuadrícula y lista.
-- Acciones principales: botones para registrar, importar y exportar.
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 142302.png" alt="" width="495"><figcaption></figcaption></figure>
 
-Funciones principales
+## Funciones principales
 
-1. Exportar
+1. <mark style="color:orange;">**Barra de búsqueda:**</mark> permite buscar un docente por su nombre.
+2. <mark style="color:green;">**Vistas:**</mark> cambia entre vista de cuadrícula o lista.
+3. <mark style="color:purple;">**Acciones principales:**</mark> botones para registrar y exportar docentes.
 
-   Permite descargar TODAS las entradas de docentes en formatos comunes. Los formatos disponibles suelen ser:
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 184506.png" alt=""><figcaption></figcaption></figure>
 
-   - PDF: descarga en formato sencillo y legible.
-   - Word: plantilla básica con la información en formato documento.
-   - Excel: tabla con los datos para edición o importación posterior.
+## Acciones principales
 
-   <p align="center"><img src="../.gitbook/assets/pdf-24.svg" alt=""><img src="../.gitbook/assets/word-24.svg" alt=""><img src="../.gitbook/assets/excel-24.svg" alt=""></p>
+### Exportar
 
-2. Importar
+Exporta **TODOS** los docentes registradas en el sistema en los siguientes formatos:
 
-   Para facilitar la entrada masiva de docentes, el sistema acepta un archivo Excel (.xlsx). El archivo debe respetar una plantilla mínima para que el sistema pueda leerlo correctamente.
+<div align="center"><img src="../.gitbook/assets/pdf-24.svg" alt=""> <img src="../.gitbook/assets/word-24.svg" alt=""> <img src="../.gitbook/assets/excel-24.svg" alt=""></div>
 
-   Plantilla mínima (columnas):
+Los archivos se descargan en formato de tabla con plantillas sencillas y predeterminadas.
 
-   matricula	docente	especialidad
+### Importar
 
-   - matricula: identificador del docente (ID o matrícula).
-   - docente: nombre completo del docente.
-   - especialidad: área, departamento o especialidad (opcional pero recomendable).
+Para agilizar la carga de materias, especialmente en el primer uso, puedes importar un archivo ![](../.gitbook/assets/excel-24.svg) con el siguiente formato:
 
-   Al elegir el archivo se abrirá un diálogo donde se muestran los datos extraídos:
+{% code title="formato.xlsx" overflow="wrap" lineNumbers="true" fullWidth="true" %}
+```csv
+nombre
+```
+{% endcode %}
 
-   1. Barra de búsqueda: útil para filtrar filas cuando el archivo contiene muchos registros.
-   2. Seleccionar y total: permite marcar todos los registros extraídos y ver el total seleccionado.
-   3. Tabla de datos: vista previa de las filas con matrícula, nombre y especialidad.
-   4. Acciones: `Cancelar` para abortar la importación, o `Importar` para subir los registros seleccionados.
+Es importante seguir esta plantilla para que el sistema detecte correctamente todos los docentes.
 
-   <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 151813.png" alt="" width="347"></figure>
+{% hint style="danger" %}
+Es importante seguir los requisitos del nombre. Ir a [#nuevo-docente](docentes.md#nuevo-docente "mention")
+{% endhint %}
 
-   Nota: la importación puede fallar por formato incorrecto, datos inválidos o problemas de red. Revisa la sección `../otros/importante.md#errores` para más información sobre notificaciones y manejo de errores.
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 185030.png" alt=""><figcaption></figcaption></figure>
 
-3. Nuevo docente
+Cuando tengas el archivo listo, usa el botón <mark style="color:green;">**Importar**</mark> para abrir el selector de archivos. Una vez seleccionado, aparecerá el siguiente diálogo:
 
-   Para crear un docente individualmente, el formulario solicita los datos principales con validaciones:
+1. <mark style="color:red;">**Barra de búsqueda:**</mark> filtra docentes por nombre cuando el archivo contiene muchos registros.
+2. <mark style="color:orange;">**Seleccionar y total:**</mark> selecciona todos los datos extraídos y muestra el total.
+3. <mark style="color:green;">**Tabla de datos:**</mark> vista previa de los datos extraídos.
+4. <mark style="color:purple;">**Acciones:**</mark> `Cancelar` para abortar la importación o `Importar` para subir los datos seleccionados.
 
-   - Nombre de docente: mínimo 5 y máximo 70 caracteres.
-   - Matrícula (ID): mínimo 3 y máximo 8 caracteres.
-   - Especialidad / Departamento: campo de texto (opcional).
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 185144.png" alt=""><figcaption></figcaption></figure>
 
-   Si los valores no cumplen las restricciones, el sistema no permitirá guardar el registro.
+{% include "../.gitbook/includes/actionerror.md" %}
 
-   <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 160150.png" alt="" width="338"></figure>
+### Nuevo docente
 
-   Ten en cuenta que esta acción puede fallar por datos erróneos o problemas del sistema; consulta `../otros/importante.md#errores` si aparece una notificación.
+Para crear una materia individual, completa los siguientes campos:
 
-Una vez creado el docente, en la lista aparecerán nuevas acciones para cada registro:
+1. <mark style="color:green;">**Nombre del docente:**</mark> entre 10 y 50 caracteres. El sistema no permitirá exceder el límite.
 
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 161933.png" alt="" width="232"></figure>
+{% hint style="info" %}
+Si no se cumplen los requisitos, no se podrá registrar al docente.
+{% endhint %}
 
-4. Editar
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 185423.png" alt="" width="377"><figcaption></figcaption></figure>
 
-   Al editar, los campos se rellenan con los datos actuales del docente. Aplica las mismas validaciones que al crear.
+{% include "../.gitbook/includes/actionerror.md" %}
 
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 161903.png" alt="" width="336"></figure>
+## Información obtenida
 
-5. Eliminar
+Una vez creado el docente, aparecerán nuevas acciones disponibles:
 
-   Esta acción es irreversible: al confirmar se eliminará completamente el registro del docente de la base de datos. Lee la advertencia antes de confirmar.
+1. <mark style="color:green;">**Horario:**</mark> se muestra si el docente cuenta con horario establecido para el último semestre registrado. Para más información en [planificacion-docente.md](../gestion-de-horarios/planificacion-docente.md "mention").
+2. <mark style="color:red;">**Materias:**</mark> esto nos indica si ya se han asignado materias al docente en el último semestre registrado. Para más información en [docentes-con-materias.md](../relaciones/docentes-con-materias.md "mention").
 
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 162306.png" alt="" width="241"></figure>
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 185837.png" alt="" width="227"><figcaption></figcaption></figure>
 
-Errores y validaciones
+### Editar
 
-- Asegúrate de que el archivo de importación tenga las columnas en el orden y formato correctos.
-- Los campos obligatorios deben respetar las longitudes mínimas y máximas indicadas.
-- Si ocurre un fallo, revisa la conexión y los datos fuente; las notificaciones del sistema indicarán el tipo de error.
+Al editar a un docente, se aplican las mismas validaciones que al crear. Los campos se rellenan automáticamente con los datos actuales.
 
-Si quieres, puedo adaptar la plantilla de importación para incluir más columnas (correo, teléfono, asignaturas asignadas) o generar un ejemplo descargable en CSV/Excel.
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 190652.png" alt="" width="381"><figcaption></figcaption></figure>
 
+### Eliminar
+
+Esta acción es irreversible y eliminará completamente la información de la base de datos. Lee cuidadosamente la confirmación antes de proceder.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 190746.png" alt="" width="239"><figcaption></figcaption></figure>

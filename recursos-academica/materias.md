@@ -4,7 +4,9 @@ icon: books
 
 # Materias
 
-Página principal donde se muestran todas las materias registradas en el sistema. Si no hay registros, aparecerá un mensaje indicándolo.
+## Primeros pasos
+
+Página principal donde se muestran todas las `materias` registradas en el sistema. Si no hay registros, aparecerá un mensaje indicándolo.
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 092836.png" alt=""><figcaption></figcaption></figure>
 
@@ -12,13 +14,9 @@ Esta vista incluye herramientas para gestionar las materias:
 
 1. **Agregar materia:** permite añadir nuevas materias al sistema.
 
-{% hint style="info" %}
-Este botón funciona igual en el diseño final.
-{% endhint %}
-
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 142302.png" alt="" width="495"><figcaption></figcaption></figure>
 
-### Funciones principales
+## Funciones principales
 
 1. <mark style="color:orange;">**Barra de búsqueda:**</mark> permite buscar materias por nombre o matrícula.
 2. <mark style="color:green;">**Vistas:**</mark> cambia entre vista de cuadrícula o lista.
@@ -26,17 +24,17 @@ Este botón funciona igual en el diseño final.
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 143609.png" alt=""><figcaption></figcaption></figure>
 
-### Acciones principales
+## Acciones principales
 
-#### Exportar
+### Exportar
 
-Exporta <mark style="color:$success;">**TODAS**</mark> las materias registradas en el sistema en los siguientes formatos:
+Exporta **TODAS** las materias registradas en el sistema en los siguientes formatos:
 
-<p align="center"><img src="../.gitbook/assets/pdf-24.svg" alt=""><img src="../.gitbook/assets/word-24.svg" alt=""><img src="../.gitbook/assets/excel-24.svg" alt=""></p>
+<div align="center"><img src="../.gitbook/assets/pdf-24.svg" alt=""> <img src="../.gitbook/assets/word-24.svg" alt=""> <img src="../.gitbook/assets/excel-24.svg" alt=""></div>
 
 Los archivos se descargan en formato de tabla con plantillas sencillas y predeterminadas.
 
-#### Importar
+### Importar
 
 Para agilizar la carga de materias, especialmente en el primer uso, puedes importar un archivo ![](../.gitbook/assets/excel-24.svg) con el siguiente formato:
 
@@ -60,11 +58,9 @@ Cuando tengas el archivo listo, usa el botón <mark style="color:green;">**Impor
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 151813.png" alt="" width="347"><figcaption></figcaption></figure>
 
-{% hint style="danger" %}
-Esta acción puede fallar por problemas del sistema, datos erróneos o conexión de red. Consulta [#errores](../otros/importante.md#errores "mention") para información sobre notificaciones.
-{% endhint %}
+{% include "../.gitbook/includes/actionerror.md" %}
 
-#### Nueva materia
+### Nueva materia
 
 Para crear una materia individual, completa los siguientes campos:
 
@@ -78,21 +74,21 @@ Si no se cumplen los requisitos, no se podrá registrar la materia.
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 160150.png" alt="" width="338"><figcaption></figcaption></figure>
 
-{% hint style="danger" %}
-Esta acción puede fallar por problemas del sistema, datos erróneos o conexión de red. Consulta [#errores](../otros/importante.md#errores "mention") para información sobre notificaciones.
-{% endhint %}
+{% include "../.gitbook/includes/actionerror.md" %}
+
+## Información obtenida
 
 Una vez creada la materia, aparecerán nuevas acciones disponibles:
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 161933.png" alt="" width="232"><figcaption></figcaption></figure>
 
-#### Editar
+### Editar
 
 Al editar una materia, se aplican las mismas validaciones que al crear. Los campos se rellenan automáticamente con los datos actuales.
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 161903.png" alt="" width="336"><figcaption></figcaption></figure>
 
-#### Eliminar
+### Eliminar
 
 Esta acción es irreversible y eliminará completamente la información de la base de datos. Lee cuidadosamente la confirmación antes de proceder.
 
