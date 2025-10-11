@@ -31,19 +31,144 @@ Al hacerlo, esta se ampliará y permanecerá visible el tiempo que necesites.
 
 ***
 
-## Formato de plantillas
+## Formato para crear una plantilla
 
 Es importante seguir la nomenclatura establecida y agregar los valores indicados para que el sistema reemplace automáticamente la información correspondiente en el formato final.
 
 ### <mark style="color:$success;">Plantilla de horarios</mark>
 
-Esta plantilla es la más importante, ya que con ella se genera el horario final del semestre.\
-Se deben utilizar las siguientes variables exactamente como se muestran para evitar errores durante el proceso.
+Para poder elaborar una nueva plantilla para cuando se desea descargar los horarios elaborados tenga el formato adecuado y esperado.
 
-<table><thead><tr><th width="180" align="center">Placeholder</th><th align="center">Descripción</th><th align="center">Ejemplo</th></tr></thead><tbody><tr><td align="center"><kbd>{plantel}</kbd></td><td align="center">Obtiene el nombre del plantel</td><td align="center"><code>COBAEV 16</code></td></tr><tr><td align="center"><kbd>{carpetaNombre}</kbd></td><td align="center">Obtiene el semestre al cual se elaboro el horario</td><td align="center"><code>2025 AGOSTO-ENERO</code></td></tr><tr><td align="center"><kbd>{grupoNombre}</kbd></td><td align="center">Obtiene el grupo al cual se esta descargando el horario</td><td align="center"><code>201 Matutino</code></td></tr><tr><td align="center"><kbd>{elaboro}</kbd></td><td align="center">Se suplanta por el nombre establecido en configuración</td><td align="center"><sub><code>LIC. TOMAS TAXILAGA ACUA</code></sub></td></tr><tr><td align="center"><kbd>{cargoElaboro}</kbd></td><td align="center">Se suplanta por el nombre establecido en configuración</td><td align="center"><sub><code>SUBDIRECTOR ACÁDEMICO</code></sub></td></tr><tr><td align="center"><kbd>{vobo}</kbd></td><td align="center">Se suplanta por el nombre establecido en configuración</td><td align="center"><sub><code>LIC. MARIA TERESA DE JESUS MORENO GOMEZ</code></sub></td></tr><tr><td align="center"><kbd>{cargoVobo}</kbd></td><td align="center">Se suplanta por el nombre establecido en configuración</td><td align="center"><code>DIRECTORA</code></td></tr></tbody></table>
+En un nuevo archivo ![](../.gitbook/assets/word-24.svg) debemos considerar lo siguiente.
+
+{% code title="formato.docx" overflow="wrap" lineNumbers="true" %}
+```
+<-- PÁGINA 1 -->
+## Cabecera del documento ##
+
+#Es importante que antes de todo el contenido se agregue lo siguiente
+{#grupos} # Inicio de la iteracción
+
+# Variables de la tabla 1. 
+Plantel: {plantel} ...etc
+[formato de la tabla] #se agrega la tabla con el formato esperado
+
+-- SALTO DE PÁGINA --
+
+<-- PÁGINA 2 -->
+## Cabecera del documento ##
+{/grupos} # Fin de la iteracción
+```
+{% endcode %}
+
+#### Tabla 1
+
+<table><thead><tr><th width="180" align="center">Placeholder</th><th align="center">Descripción</th><th align="center">Ejemplo</th></tr></thead><tbody><tr><td align="center"><kbd>{plantel}</kbd></td><td align="center">Obtiene el nombre del plantel.</td><td align="center"><code>COBAEV 16</code></td></tr><tr><td align="center"><kbd>{carpetaNombre}</kbd></td><td align="center">Obtiene el semestre al cual corresponde el horario.</td><td align="center"><code>2025 AGOSTO-ENERO</code></td></tr><tr><td align="center"><kbd>{grupoNombre}</kbd></td><td align="center">Obtiene el grupo al que pertenece el horario descargado.</td><td align="center"><code>201 Matutino</code></td></tr><tr><td align="center"><kbd>{elaboro}</kbd></td><td align="center">Se reemplaza por el nombre configurado en el sistema.</td><td align="center"><code>LIC. TOMAS TAXILAGA ACUA</code></td></tr><tr><td align="center"><kbd>{cargoElaboro}</kbd></td><td align="center">Se reemplaza por el cargo configurado en el sistema.</td><td align="center"><code>SUBDIRECTOR ACÁDEMICO</code></td></tr><tr><td align="center"><kbd>{vobo}</kbd></td><td align="center">Se reemplaza por el nombre configurado en el sistema para el visto bueno.</td><td align="center"><code>LIC. MARIA TERESA DE JESUS MORENO GOMEZ</code></td></tr><tr><td align="center"><kbd>{cargoVobo}</kbd></td><td align="center">Se reemplaza por el cargo configurado en el sistema para el visto bueno.</td><td align="center"><code>DIRECTORA</code></td></tr></tbody></table>
 
 {% hint style="info" %}
-Estos datos son los que pueden ir dentro del documento sin importar el orden y es de carácter opcional.
+Estos datos pueden colocarse dentro del documento en cualquier orden y su uso es <mark style="color:$danger;">`opcional`</mark>.
 {% endhint %}
 
+#### Tabla 2
+
 La siguiente tabla muestra las variables que realmente son necesarias para el tema de los horarios, ya que estará haciendo un reemplazo de la información de cada grupo.
+
+|                                                                                     Placeholder                                                                                     |                                        Descripción                                        |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: |
+|                                                 <kbd><mark style="color:red;">{#horarios}{/horarios}<mark style="color:red;"></kbd>                                                 |      Esto es para indicar al sistema el inicio y fin de la iteración de los horarios.     |
+| <kbd><mark style="color:green;">{#esReceso}<mark style="color:green;"></kbd><kbd>{celdaCombinada}</kbd><kbd><mark style="color:green;">{/esReceso}<mark style="color:green;"></kbd> |              Esto es para que coloque tal cual la palabra RECESO en la tabla.             |
+|                                                      <kbd><mark style="color:purple;">{hora}<mark style="color:purple;"></kbd>                                                      |     Esto es solo para que se coloquen las horas correspondientes dependiendo el turno.    |
+|                                                <kbd><mark style="color:blue;">{^esReceso}{/esReceso}<mark style="color:blue;"></kbd>                                                |                  Esto es para indicar la hora del receso en ambos turnos.                 |
+|                                    <kbd><mark style="color:orange;">{lunes}{martes}{miercoles}{jueves}{viernes}<mark style="color:orange;"></kbd>                                   | Esto solo es para que se coloque correctamente los horarios en los días correspondientes. |
+
+El diseño de la tabla debe quedar de esta manera, en donde se establecen los días de la semana y las celdas en donde se estará suplantando la información obtenida de los grupos.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-11 151816.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+Estos datos son de carácter obligatorio.
+{% endhint %}
+
+#### Tabla 3
+
+Esta tabla muestra la información necesaria de la materia y el docente que imparte en ese grupo.
+
+|                                         Placeholder                                         |                              Descripción                              |
+| :-----------------------------------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| <kbd><mark style="color:blue;">{#asignaturas}{/asignaturas}<mark style="color:blue;"></kbd> | Esto es donde empieza la iteración de las materias asignadas al grupo |
+|           <kbd><mark style="color:green;">{horas}<mark style="color:green;"></kbd>          |         Esto es para mostrar las horas semanales de la materia        |
+|          <kbd><mark style="color:red;">{catedratico}<mark style="color:red;"></kbd>         |    Esto es para mostrar el docente que esta asignado a la materia.    |
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-11 153140.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+Es importante que estos datos sean acomodados de una manera que todo entre en el mismo documento, si es posible reducir el tamaño de las letras a mínimo `8` para que sea visible.
+{% endhint %}
+
+El archivo debe quedar de esta manera, con 2 hojas en total y en la segunda hoja solo debe ir la variable <mark style="color:red;">`{/grupos}`</mark><mark style="color:red;">.</mark> En la imagen no se logra apreciar bien pero en los pasos anteriores se ve como debe quedar cada una de las tablas.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-11 154400.png" alt=""><figcaption></figcaption></figure>
+
+#### Descarga la plantilla elaborada
+
+{% file src="../.gitbook/assets/PLANTILLA_HORARIOS_COBAEV-16.docx" %}
+
+### <mark style="color:$warning;">Plantilla de docentes</mark>
+
+Para poder crear una nueva plantilla de docente se requiere de la siguiente información para que funcione correctamente el llenado de los datos del sistema.
+
+En un nuevo archivo ![](../.gitbook/assets/word-24.svg) debemos considerar lo siguiente.
+
+{% code title="formato.docx" overflow="wrap" lineNumbers="true" %}
+```
+<-- PÁGINA 1 -->
+## Cabecera del documento ##
+
+{#docentes} # Inicio de la iteracción
+
+# Datos importantes de la materia
+DOCENTE: {catedratico}
+ASIGNATURA (S): {asignaturasCatedratico}
+GRUPO (S): {gruposMaterias}
+TOTAL HORAS: {totalHoras}
+SEMESTRE: {semestre}
+
+[TABLA]
+
+[firmas]
+
+-- SALTO DE PÁGINA --
+
+<-- PÁGINA 2 -->
+## Cabecera del documento ##
+{/docentes} # Fin de la iteracción
+```
+{% endcode %}
+
+#### Tabla 1
+
+Las siguientes variables son algo importante para mostrar más información detallada sobre el horario final del docente.
+
+<table><thead><tr><th width="267" align="center">Placeholder</th><th align="center">Descripción</th></tr></thead><tbody><tr><td align="center"><kbd>{plantel}</kbd></td><td align="center">Muestra el nombre del plantel establecido en la configuración.</td></tr><tr><td align="center"><kbd>{asignaturasCatedratico}</kbd></td><td align="center">Muestra las asignaturas que imparte el docente durante el semestre.</td></tr><tr><td align="center"><kbd>{gruposMaterias}</kbd></td><td align="center">Muestra los grupos en los que el docente da clases.</td></tr><tr><td align="center"><kbd>{totalHoras}</kbd></td><td align="center">Muestra el total de las horas que el docente da clases durante la semana.</td></tr><tr><td align="center"><kbd>{semestre}</kbd></td><td align="center">Muestra el semestre en curso.</td></tr><tr><td align="center"><kbd>{elaboro}</kbd></td><td align="center">Muestra la persona encargada de la elaboración de los horarios.</td></tr><tr><td align="center"><kbd>{cargoElaboro}</kbd></td><td align="center">Muestra el cargo del quien elaborón los horarios.</td></tr></tbody></table>
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-11 160749.png" alt=""><figcaption></figcaption></figure>
+
+#### Tabla 2
+
+Esta tabla es importante hacer un tamaño considerable, ya que se juntan ambos turnos y lo que puede ocasionar es que se crean dos hojas de un mismo horario del docente por lo grande que a veces llega a ser su carga.
+
+<table><thead><tr><th width="374" align="center">Placeholder</th><th align="center">Descripción</th></tr></thead><tbody><tr><td align="center"><kbd><mark style="color:red;">{#horarios}{/horarios}</mark></kbd></td><td align="center"></td></tr><tr><td align="center"><kbd><mark style="color:blue;">{#esReceso}</mark>{celdaCombinada}<mark style="color:blue;">{/esReceso}</mark></kbd></td><td align="center"></td></tr><tr><td align="center"><kbd><mark style="color:green;">{hora}</mark></kbd></td><td align="center"></td></tr><tr><td align="center"><kbd><mark style="color:purple;">{^esReceso}{/esReceso}</mark></kbd></td><td align="center"></td></tr><tr><td align="center"><kbd><mark style="color:orange;">{lunes}{martes}{miercoles}{jueves}{viernes}</mark></kbd></td><td align="center"></td></tr></tbody></table>
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-11 161030.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+Estos datos son de carácter obligatorio.
+{% endhint %}
+
+El archivo debe quedar de esta manera, con 2 hojas en total y en la segunda hoja solo debe ir la variable <mark style="color:red;">`{/docentes}`</mark><mark style="color:red;">.</mark> En la imagen no se logra apreciar bien pero en los pasos anteriores se ve como debe quedar cada una de las tablas.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-11 161648.png" alt=""><figcaption></figcaption></figure>
+
+#### Descarga plantilla elaborada
+
+{% file src="../.gitbook/assets/PLANTILLA_DOCENTES.docx" %}
