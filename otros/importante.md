@@ -28,3 +28,22 @@ No aplica para <mark style="color:blue;">`Aviso`</mark> ni para `Éxito`.
 
 Para ver el mensaje completo, da `clic` sobre la notificación.\
 Al hacerlo, esta se ampliará y permanecerá visible el tiempo que necesites.
+
+***
+
+## Formato de plantillas
+
+Es importante seguir la nomenclatura establecida y agregar los valores indicados para que el sistema reemplace automáticamente la información correspondiente en el formato final.
+
+### <mark style="color:$success;">Plantilla de horarios</mark>
+
+Esta plantilla es la más importante, ya que con ella se genera el horario final del semestre.\
+Se deben utilizar las siguientes variables exactamente como se muestran para evitar errores durante el proceso.
+
+<table><thead><tr><th width="180" align="center">Placeholder</th><th align="center">Descripción</th><th align="center">Ejemplo</th></tr></thead><tbody><tr><td align="center"><kbd>{plantel}</kbd></td><td align="center">Obtiene el nombre del plantel</td><td align="center"><code>COBAEV 16</code></td></tr><tr><td align="center"><kbd>{carpetaNombre}</kbd></td><td align="center">Obtiene el semestre al cual se elaboro el horario</td><td align="center"><code>2025 AGOSTO-ENERO</code></td></tr><tr><td align="center"><kbd>{grupoNombre}</kbd></td><td align="center">Obtiene el grupo al cual se esta descargando el horario</td><td align="center"><code>201 Matutino</code></td></tr><tr><td align="center"><kbd>{elaboro}</kbd></td><td align="center">Se suplanta por el nombre establecido en configuración</td><td align="center"><sub><code>LIC. TOMAS TAXILAGA ACUA</code></sub></td></tr><tr><td align="center"><kbd>{cargoElaboro}</kbd></td><td align="center">Se suplanta por el nombre establecido en configuración</td><td align="center"><sub><code>SUBDIRECTOR ACÁDEMICO</code></sub></td></tr><tr><td align="center"><kbd>{vobo}</kbd></td><td align="center">Se suplanta por el nombre establecido en configuración</td><td align="center"><sub><code>LIC. MARIA TERESA DE JESUS MORENO GOMEZ</code></sub></td></tr><tr><td align="center"><kbd>{cargoVobo}</kbd></td><td align="center">Se suplanta por el nombre establecido en configuración</td><td align="center"><code>DIRECTORA</code></td></tr></tbody></table>
+
+{% hint style="info" %}
+Estos datos son los que pueden ir dentro del documento sin importar el orden y es de carácter opcional.
+{% endhint %}
+
+La siguiente tabla muestra las variables que realmente son necesarias para el tema de los horarios, ya que estará haciendo un reemplazo de la información de cada grupo.
