@@ -10,12 +10,6 @@ Página principal donde se muestran todos los grupos registrados en el sistema. 
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 191618.png" alt=""><figcaption></figcaption></figure>
 
-En esta vista podremos gestionar los grupos y como inicio tenemos:
-
-1. **Agregar grupo:** permite agregar un nuevo grupo al sistema.
-
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 142302.png" alt="" width="495"><figcaption></figcaption></figure>
-
 ## Funciones principales
 
 Estas herramientas son útiles para mejorar la búsqueda de los grupos y ser más rápido en el proceso.
@@ -26,9 +20,7 @@ Estas herramientas son útiles para mejorar la búsqueda de los grupos y ser má
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 192844.png" alt=""><figcaption></figcaption></figure>
 
-## Acciones principales
-
-### Filtrar por rango
+### <mark style="color:green;">Filtrar por rango</mark>
 
 En el selector tenemos diferentes valores, y estos valores van de acuerdo con los grupos, si se selecciona alguno de ellos en automático se mostrarán las materias con ese rango seleccionado.
 
@@ -38,7 +30,7 @@ En este caso se selecciono el `rango` de 200 y nos esta mostrando los grupos que
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 195427.png" alt=""><figcaption></figcaption></figure>
 
-### Filtrar por tuno
+### <mark style="color:orange;">Filtrar por tuno</mark>
 
 En el selector de turno es algo más sencillo, ya que solo se tiene dos valores
 
@@ -51,7 +43,7 @@ Ahora, si se aplica el filtro del turno y a la vez el de rango, los valores most
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-### Agregar grupo
+### <mark style="color:purple;">Agregar grupo</mark>
 
 Para poder crear un nuevo grupo se requiere de lo siguiente.
 
@@ -68,7 +60,7 @@ Una vez creado el nuevo grupo, se mostrará de la siguiente manera, en donde tam
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 201449.png" alt=""><figcaption></figcaption></figure>
 
-### Editar
+### <mark style="color:blue;">Editar</mark>
 
 Al editar un grupo, se aplican las mismas validaciones que al crear. Los campos se rellenan automáticamente con los datos actuales.
 
@@ -76,7 +68,7 @@ Al editar un grupo, se aplican las mismas validaciones que al crear. Los campos 
 
 {% include "../.gitbook/includes/actionerror.md" %}
 
-### Eliminar
+### <mark style="color:red;">Eliminar</mark>
 
 Esta acción es irreversible y eliminará completamente la información de la base de datos. Lee cuidadosamente la confirmación antes de proceder.
 

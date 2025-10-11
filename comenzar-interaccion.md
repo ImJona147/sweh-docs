@@ -16,9 +16,9 @@ layout:
     visible: true
 ---
 
-# Comenzar interacción
+# Primeros pasos
 
-## Credenciales
+## Inicio de sesión
 
 Para acceder al sistema, es necesario contar con las credenciales correctas. Estas garantizan que el usuario pueda ingresar y continuar con las operaciones dentro del sistema.
 
@@ -26,27 +26,18 @@ Para acceder al sistema, es necesario contar con las credenciales correctas. Est
 2. **Contraseña**
 3. **Ingresar**
 
-<figure><img src="https://427283098-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fc3Xztvbl6hZF1pSc3D5c%2Fuploads%2FVgiEHe42xtqY2W9NeWkm%2F1.png?alt=media&#x26;token=04326a8b-6a7a-4c26-881e-11e4acc0888a" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://427283098-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fc3Xztvbl6hZF1pSc3D5c%2Fuploads%2FVgiEHe42xtqY2W9NeWkm%2F1.png?alt=media&#x26;token=04326a8b-6a7a-4c26-881e-11e4acc0888a" alt="" width="375"><figcaption></figcaption></figure>
 
 Si las credenciales son correctas, el sistema redirigirá automáticamente al [#dashboard](comenzar-interaccion.md#dashboard "mention").\
-En caso contrario, se mostrarán algunos de los siguientes errores comunes:
+En caso contrario, se mostrarán algunos errores.
 
-{% hint style="warning" %}
-Los mensajes de error por notificación cuentan con funcionalidades adicionales. Consulta la sección [#errores](otros/importante.md#errores "mention") para obtener más información sobre su funcionamiento.
-{% endhint %}
-
-1. **Usuario no encontrado:** Ocurre cuando el nombre de usuario no existe o fue ingresado incorrectamente.
-2. **Contraseña incorrecta:** Sucede cuando la contraseña ingresada es incorrecta o no cumple con los requisitos establecidos.
-
-{% hint style="info" %}
-Existen otros errores que pueden presentarse por causas externas al sistema y que no dependen directamente de las acciones del usuario.
-{% endhint %}
+{% include ".gitbook/includes/actionerror.md" %}
 
 ***
 
 ## Dashboard
 
-El **panel de control (dashboard)** muestra información general sobre el estado del sistema y confirma si todo está correctamente configurado cuando se habilita un nuevo **semestre**.
+El **panel de control (dashboard)** muestra información general sobre el estado del sistema y confirma si todo está correctamente configurado cuando se habilita un [#nuevo-semestre](recursos-academica/semestres.md#nuevo-semestre "mention").
 
 <figure><img src="https://427283098-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fc3Xztvbl6hZF1pSc3D5c%2Fuploads%2F0qTJynHhhwifqFy7yCi3%2FCaptura%20de%20pantalla%202025-10-08%20213928.png?alt=media&#x26;token=a8d10867-5487-44b3-bdbb-147ef93888d4" alt=""><figcaption></figcaption></figure>
 
@@ -84,9 +75,7 @@ La siguiente imagen muestra una configuración inicial completamente vacía.
 
 <figure><img src="https://427283098-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fc3Xztvbl6hZF1pSc3D5c%2Fuploads%2F0AkGvafOjc04eKqSOuQC%2FCaptura%20de%20pantalla%202025-10-08%20220636.png?alt=media&#x26;token=8836a952-8b68-4c3f-9fee-337ca9965dd8" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
 A continuación, se muestra la configuración inicial completa, con todos los pasos correctamente realizados.
-{% endhint %}
 
 <figure><img src="https://427283098-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fc3Xztvbl6hZF1pSc3D5c%2Fuploads%2FQDz8hC2F7NSEKUPfhgBj%2FCaptura%20de%20pantalla%202025-10-08%20220022.png?alt=media&#x26;token=545950a1-c883-4cfc-98a7-b3bfe27da335" alt=""><figcaption></figcaption></figure>
 

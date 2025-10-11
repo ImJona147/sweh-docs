@@ -10,12 +10,6 @@ Página principal donde se muestran todos los `docentes` registradas en el siste
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 184325.png" alt=""><figcaption></figcaption></figure>
 
-Esta vista incluye herramientas para gestionar los docentes:
-
-1. **Agregar docente:** permite añadir nuevos docentes al sistema.
-
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 142302.png" alt="" width="495"><figcaption></figcaption></figure>
-
 ## Funciones principales
 
 1. <mark style="color:orange;">**Barra de búsqueda:**</mark> permite buscar un docente por su nombre.
@@ -24,19 +18,21 @@ Esta vista incluye herramientas para gestionar los docentes:
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 184506.png" alt=""><figcaption></figcaption></figure>
 
-## Acciones principales
+### <mark style="color:$success;">Exportar</mark>
 
-### Exportar
-
-Exporta **TODOS** los docentes registradas en el sistema en los siguientes formatos:
+Descarga **TODOS** los docentes registradas en el sistema en los siguientes formatos:
 
 <div align="center"><img src="../.gitbook/assets/pdf-24.svg" alt=""> <img src="../.gitbook/assets/word-24.svg" alt=""> <img src="../.gitbook/assets/excel-24.svg" alt=""></div>
 
 Los archivos se descargan en formato de tabla con plantillas sencillas y predeterminadas.
 
-### Importar
+### <mark style="color:blue;">Importar</mark>
 
-Para agilizar la carga de docentes, especialmente en el primer uso, puedes importar un archivo ![](../.gitbook/assets/excel-24.svg) con el siguiente formato:
+Para agilizar la carga de docentes, especialmente en el primer uso, se puede importar un archivo ![](../.gitbook/assets/excel-24.svg) con el siguiente formato:
+
+{% hint style="success" %}
+Copiar y pegar el siguiente código en un archivo ![](../.gitbook/assets/excel-24.svg)
+{% endhint %}
 
 {% code title="formato.xlsx" overflow="wrap" lineNumbers="true" fullWidth="true" %}
 ```csv
@@ -44,15 +40,17 @@ nombre
 ```
 {% endcode %}
 
+{% hint style="warning" %}
 Es importante seguir esta plantilla para que el sistema detecte correctamente todos los docentes.
+{% endhint %}
 
 {% hint style="danger" %}
-Es importante seguir los requisitos del nombre. Ir a [#nuevo-docente](docentes.md#nuevo-docente "mention")
+Debes seguir los requisitos del nombre. Ir a [#nuevo-docente](docentes.md#nuevo-docente "mention") para obtener más información.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 185030.png" alt=""><figcaption></figcaption></figure>
 
-Cuando tengas el archivo listo, usa el botón <mark style="color:green;">**Importar**</mark> para abrir el selector de archivos. Una vez seleccionado, aparecerá el siguiente diálogo:
+Cuando el archivo esté listo, usa el botón <mark style="color:green;">**Importar**</mark> para abrir el selector de archivos. Una vez seleccionado, aparecerá el siguiente diálogo:
 
 1. <mark style="color:red;">**Barra de búsqueda:**</mark> filtra docentes por nombre cuando el archivo contiene muchos registros.
 2. <mark style="color:orange;">**Seleccionar y total:**</mark> selecciona todos los datos extraídos y muestra el total.
@@ -63,15 +61,11 @@ Cuando tengas el archivo listo, usa el botón <mark style="color:green;">**Impor
 
 {% include "../.gitbook/includes/actionerror.md" %}
 
-### Nuevo docente
+### <mark style="color:$primary;">Nuevo docente</mark>
 
 Para crear un docente individual, completa los siguientes campos:
 
 1. <mark style="color:green;">**Nombre del docente:**</mark> entre 10 y 50 caracteres. El sistema no permitirá exceder el límite.
-
-{% hint style="info" %}
-Si no se cumplen los requisitos, no se podrá registrar al docente.
-{% endhint %}
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 185423.png" alt="" width="377"><figcaption></figcaption></figure>
 
@@ -86,13 +80,13 @@ Una vez creado el docente, aparecerán nuevas acciones disponibles:
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 185837.png" alt="" width="227"><figcaption></figcaption></figure>
 
-### Editar
+### <mark style="color:blue;">Editar</mark>
 
 Al editar a un docente, se aplican las mismas validaciones que al crear. Los campos se rellenan automáticamente con los datos actuales.
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-09 190652.png" alt="" width="381"><figcaption></figcaption></figure>
 
-### Eliminar
+### <mark style="color:red;">Eliminar</mark>
 
 Esta acción es irreversible y eliminará completamente la información de la base de datos. Lee cuidadosamente la confirmación antes de proceder.
 
