@@ -35,6 +35,8 @@ Es importante tener en cuenta lo siguiente: existen dos valores que se muestran 
 
 {% include "../.gitbook/includes/actionerror.md" %}
 
+Cada vez que se crea un nuevo semestre, se muestra una notificación en la parte superior derecha. Esta notificación recomienda acceder al apartado [#dashboard](../comenzar-interaccion.md#dashboard "mention") para conocer los pasos que deben seguirse tras la creación del semestre.
+
 ## Información obtenida
 
 Cuando se crea un nuevo semestre, el sistema proporciona información adicional que puede resultar útil.

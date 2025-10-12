@@ -118,7 +118,7 @@ En la siguiente imagen se muestra un ejemplo del formato final.
 
 Para crear una nueva plantilla de docentes, se requiere la siguiente información para garantizar el correcto llenado de los datos provenientes del sistema.
 
-En un nuevo archivo  se debe considerar lo siguiente:
+En un nuevo archivo ![](../.gitbook/assets/word-24.svg) se debe considerar lo siguiente:
 
 {% code title="formato.docx" overflow="wrap" lineNumbers="true" %}
 ```
