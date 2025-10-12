@@ -22,11 +22,11 @@ layout:
 
 Para acceder al sistema, es necesario contar con las credenciales correctas. Estas garantizan que el usuario pueda ingresar y continuar con las operaciones dentro del sistema.
 
-1. **Usuario**
-2. **Contraseña**
-3. **Ingresar**
+1. <mark style="color:blue;">**Usuario:**</mark> ingresa el nombre de usuario.
+2. <mark style="color:green;">**Contraseña:**</mark> ingresa la contraseña.
+3. <mark style="color:orange;">**Ingresar:**</mark> botón para validar las credenciales e ingresar al sistema.
 
-<figure><img src="../.gitbook/assets/pm_login.avif" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/pm_login.avif" alt="" width="375"><figcaption></figcaption></figure>
 
 Si las credenciales son correctas, el sistema redirigirá automáticamente al [#dashboard](comenzar-interaccion.md#dashboard "mention").\
 En caso contrario, se mostrarán algunos errores.
@@ -39,8 +39,9 @@ En caso contrario, se mostrarán algunos errores.
 
 El **panel de control (dashboard)** muestra información general sobre el estado del sistema y confirma si todo está correctamente configurado cuando se habilita un [#nuevo-semestre](recursos-academica/semestres.md#nuevo-semestre "mention").
 
-<figure><img src="../.gitbook/assets/pm_dashboard.avif" alt=""><figcaption></figcaption></figure>
-### Semestre actual
+<figure><img src=".gitbook/assets/pm_dashboard.avif" alt=""><figcaption></figcaption></figure>
+
+#### Semestre actual
 
 En esta sección se muestra el **último semestre creado** en el sistema, lo que permite verificar en todo momento si los datos que se visualizan corresponden al periodo activo.
 
@@ -50,7 +51,7 @@ También se muestra el **estado del semestre**, el cual indica si el proceso de 
 Este apartado solo aparece cuando se ha creado un nuevo semestre.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/pm_dashboard_sm.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/pm_dashboard_sm.avif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Para más detalles sobre los semestres y sus funcionalidades, consulta la sección [semestres.md](recursos-academica/semestres.md "mention").
@@ -72,19 +73,19 @@ Además, se muestra una **barra de progreso** que refleja el avance a medida que
 La siguiente imagen muestra una configuración inicial completamente vacía.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/pm_dashboard_ci.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/pm_dashboard_ci.avif" alt=""><figcaption></figcaption></figure>
 
 A continuación, se muestra la configuración inicial completa, con todos los pasos correctamente realizados.
 
-<figure><img src="../.gitbook/assets/pm_dashboard_ci_finish.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/pm_dashboard_ci_finish.avif" alt=""><figcaption></figcaption></figure>
 
 Una vez completada la configuración sin errores, esta será la base de datos que el sistema utilizará de manera global.
 
-#### Configuración del semestre
+### Configuración del semestre
 
 Si todos los pasos anteriores se realizaron correctamente, esta sección no debería mostrarse. Sin embargo, si aún no existe un [semestres.md](recursos-academica/semestres.md "mention"), es necesario crearlo.
 
-<figure><img src="../.gitbook/assets/pm_dashboard_empty.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/pm_dashboard_empty.avif" alt=""><figcaption></figcaption></figure>
 
 Los siguientes pasos son <mark style="color:red;">**IMPORTANTES**</mark> y deben realizarse cada vez que se crea un nuevo semestre académico, ya que contienen información fundamental para la elaboración de los horarios.
 
@@ -96,13 +97,13 @@ Los siguientes pasos son <mark style="color:red;">**IMPORTANTES**</mark> y deben
 Recuerda: esta configuración debe realizarse **cada vez que se crea un nuevo semestre escolar**.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/pm_dashboard_cs_null.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/pm_dashboard_cs_null.avif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Cada paso muestra información relevante, incluyendo la cantidad de datos esperados y el porcentaje de avance correspondiente.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/pm_dashboard_cs_finish.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/pm_dashboard_cs_finish.avif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Una vez completados todos los pasos y alcanzado el porcentaje requerido, el sistema mostrará el estado como **completo y listo para trabajar**.
