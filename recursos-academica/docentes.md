@@ -24,7 +24,9 @@ Descarga **TODOS** los docentes registradas en el sistema en los siguientes form
 
 <div align="center"><img src="../.gitbook/assets/pdf-24.svg" alt=""> <img src="../.gitbook/assets/word-24.svg" alt=""> <img src="../.gitbook/assets/excel-24.svg" alt=""></div>
 
-Los archivos se descargan en formato de tabla con plantillas sencillas y predeterminadas.
+{% hint style="info" %}
+**Nota:** consultar los formatos disponibles en la sección[#formatos-de-descarga](../otros/importante.md#formatos-de-descarga "mention")
+{% endhint %}
 
 ### <mark style="color:blue;">Importar</mark>
 

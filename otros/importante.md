@@ -176,3 +176,18 @@ En la siguiente imagen se muestra un ejemplo del formato final.
 #### **Descarga la plantilla elaborada**
 
 {% file src="../.gitbook/assets/PLANTILLA_DOCENTES.docx" %}
+
+***
+
+## Formatos de descarga
+
+El sistema permite la descarga de archivos en distintos formatos según la sección en la que se encuentre el usuario. A continuación, se describen las opciones disponibles:
+
+1. **Descarga formato** ![](../.gitbook/assets/excel-24.svg)**:** Disponible únicamente en las secciones de [materias.md](../recursos-academica/materias.md "mention") y [docentes.md](../recursos-academica/docentes.md "mention").\
+   Permite descargar la información en una plantilla sencilla para su revisión o modificación externa.
+2. **Descarga formato** ![](../.gitbook/assets/word-24.svg)**:** Habilitada en las secciones que permiten exportación.\
+   En los apartados de [horario-final-del-docente.md](../gestion-de-horarios/horario-final-del-docente.md "mention")y [elaboracion-de-horarios.md](../gestion-de-horarios/elaboracion-de-horarios.md "mention"), la descarga se genera con base en la plantilla definida dentro de la sección [configuracion.md](configuracion.md "mention").
+3. Descarga formato ![](../.gitbook/assets/pdf-24.svg): También disponible en las secciones con opción de descarga.\
+   En los apartados de [horario-final-del-docente.md](../gestion-de-horarios/horario-final-del-docente.md "mention") y [elaboracion-de-horarios.md](../gestion-de-horarios/elaboracion-de-horarios.md "mention"), el archivo PDF se genera a partir del formato establecido en la plantilla configurada en [configuracion.md](configuracion.md "mention").
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-12 184756.png" alt="" width="286"><figcaption></figcaption></figure>
