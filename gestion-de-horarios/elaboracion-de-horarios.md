@@ -37,9 +37,46 @@ El botón de descargar horario nos permite descargar los horarios de grupos espe
 
 ### Grupos
 
-En los grupos se nos muestra información que podría llegar a ser necesaria e importante para que así no se tenga que estar adentrando dentro de cada grupo para ver información.
+En los grupos se nos muestra información que podría llegar a ser necesaria e importante para que así no se tenga que estar adentrando dentro de cada grupo para ver información. Para entrar al proceso de elaboración de horarios, debemos dar clic sobre uno de los grupos que se muestra y nos enviará a otra vista.
 
 <figure><img src="../.gitbook/assets/imagen (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Elaboración de horario
+
+Ya estando en esta vista de elaboración de horarios nos encontramos con varias características que se estará explicando con más detalle.
+
+
+
+<figure><img src="../.gitbook/assets/imagen.png" alt=""><figcaption></figcaption></figure>
+
+Se muestran algunas de las acciones principales o lo que se puede hacer dentro del área de trabajo.
+
+<figure><img src="../.gitbook/assets/imagen (2).png" alt=""><figcaption></figcaption></figure>
+
+### Descargar
+
+
+
+### Previsualizar
+
+
+
+### Panel de materias
+
+El panel de materia es la parte fundamental para poder trabajar durante la elaboración de horarios, por eso, se explica sus funcionalidades:
+
+1. **Barra de búsqueda:** permite buscar una materia en especifico
+2. **Actualizar información:** permite actualizar la información, útil para cuando se olvido hacer los pasos anteriores de [#configuracion-del-semestre](../comenzar-interaccion.md#configuracion-del-semestre "mention") y hay problemas de información.
+3. **Materias disponibles:** muestra las materias disponibles y asociadas al grupo, la información que nos brinda es las horas por semana de la materia y su matrícula.
+4. **Materias seleccionadas:** componente que se puede arrastrar hacia el área de trabajo (tabla de horario). También nos otorga información relevante como el docente asignado, matrícula y horas por semana.
+
+<figure><img src="../.gitbook/assets/imagen (1).png" alt=""><figcaption></figcaption></figure>
+
+#### Materias seleccionadas
+
+### Validaciones
+
+#### Error de validaciones
+
+#### Notificación y manejo de errores
 

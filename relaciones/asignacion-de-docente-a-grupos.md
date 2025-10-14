@@ -18,7 +18,7 @@ Este tipo de asociación es fundamental para el sistema, ya que permite indicar 
 2. <mark style="color:green;">**Seleccionar semestre:**</mark> muestra las materias que cuentan con más de un docente, permitiendo realizar las asociaciones correspondientes.
 3. <mark style="color:blue;">**Nueva relación:**</mark> con base en el semestre seleccionado, el sistema identifica y muestra las materias que tienen más de un docente.
 
-<figure><img src="../.gitbook/assets/imagen (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/imagen (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:green;">Asignación por semestre</mark>
 

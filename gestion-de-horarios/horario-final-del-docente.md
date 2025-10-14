@@ -22,11 +22,11 @@ Esta sección cuenta con los siguientes selectores principales:
 1. <mark style="color:blue;">**Seleccionar semestre:**</mark> permite elegir el semestre del cual se desea consultar la información.
 2. <mark style="color:green;">**Seleccionar docente:**</mark> permite elegir el docente para visualizar los detalles de su horario final.
 
-<figure><img src="../.gitbook/assets/imagen (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/imagen (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. **Descargar horarios**: permite descargar todos los horarios de los docentes en un solo archivo. Este botón se habilita únicamente cuando se ha seleccionado un semestre.
 
-<figure><img src="../.gitbook/assets/imagen (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/imagen (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Descargar horarios
 
