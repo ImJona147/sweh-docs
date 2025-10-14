@@ -25,7 +25,7 @@ Esta sección cuenta con dos selectores principales:
 1. <mark style="color:blue;">**Seleccionar semestre:**</mark> permite elegir el semestre en el que se realizará la planificación docente.
 2. <mark style="color:green;">**Seleccionar docente:**</mark> permite elegir el docente para comenzar la elaboración de su planificación.
 
-<figure><img src="../.gitbook/assets/imagen (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/imagen (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Para identificar si ya se elaboró la planificación de un docente, se puede observar el ícono que aparece a la izquierda de su nombre:
 

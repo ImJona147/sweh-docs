@@ -22,11 +22,11 @@ Esta sección cuenta con los siguientes selectores principales:
 1. <mark style="color:blue;">**Seleccionar semestre:**</mark> permite elegir el semestre del cual se desea consultar la información.
 2. <mark style="color:green;">**Seleccionar docente:**</mark> permite elegir el docente para visualizar los detalles de su horario final.
 
-<figure><img src="../.gitbook/assets/imagen (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/imagen (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. **Descargar horarios**: permite descargar todos los horarios de los docentes en un solo archivo. Este botón se habilita únicamente cuando se ha seleccionado un semestre.
 
-<figure><img src="../.gitbook/assets/imagen (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/imagen (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Descargar horarios
 
@@ -39,7 +39,7 @@ El botón **Descargar horarios** permite obtener múltiples horarios de docentes
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-12 190233.png" alt="" width="405"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Nota:** consultar los formatos disponibles en la sección[#formatos-de-descarga](../otros/importante.md#formatos-de-descarga "mention")
+**Nota:** consultar los formatos disponibles en la sección [#formatos-de-descarga](../otros/importante.md#formatos-de-descarga "mention")
 {% endhint %}
 
 ### Horarios finales
@@ -58,5 +58,5 @@ La vista del horario final del docente muestra información relevante como:
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-12 183552.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Nota:** consultar los formatos disponibles en la sección[#formatos-de-descarga](../otros/importante.md#formatos-de-descarga "mention")
+**Nota:** consultar los formatos disponibles en la sección [#formatos-de-descarga](../otros/importante.md#formatos-de-descarga "mention")
 {% endhint %}
