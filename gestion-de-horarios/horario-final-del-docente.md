@@ -26,7 +26,7 @@ Esta sección cuenta con los siguientes selectores principales:
 
 3. **Descargar horarios**: permite descargar todos los horarios de los docentes en un solo archivo. Este botón se habilita únicamente cuando se ha seleccionado un semestre.
 
-<figure><img src="../.gitbook/assets/imagen (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/imagen (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Descargar horarios
 

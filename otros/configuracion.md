@@ -34,7 +34,7 @@ Una vez seleccionado el archivo, se mostrará una opción para confirmar la subi
 
 Cuando el archivo haya finalizado su carga, se mostrará en la parte inferior de la página junto con un selector que permitirá elegir cuál será la plantilla principal.
 
-<figure><img src="../.gitbook/assets/imagen (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/imagen (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Subir plantilla de horario final docente
 
@@ -52,7 +52,7 @@ Una vez seleccionado, se mostrará la opción de confirmación antes de subir el
 
 Tras completarse la carga, el archivo aparecerá en la parte inferior con un selector que permitirá definir la plantilla principal.
 
-<figure><img src="../.gitbook/assets/imagen (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/imagen (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Información de encabezado de horario
 
