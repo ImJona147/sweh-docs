@@ -55,11 +55,13 @@ Se muestran algunas de las acciones principales o lo que se puede hacer dentro d
 
 ### Descargar
 
-
+La descarga del horario es de forma individual, cuando se tenga el horario elaborado se podrá descargar en los formatos ya establecidos. Obtén más información en [#formatos-de-descarga](../otros/importante.md#formatos-de-descarga "mention")
 
 ### Previsualizar
 
+La herramienta previsualizar muestra de otra forma de como va quedando elaborado el horario y como quedaría en el formato final, la plantilla mostrada es genérica y sencilla.
 
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-14 214411.png" alt=""><figcaption></figcaption></figure>
 
 ### Panel de materias
 
