@@ -92,5 +92,5 @@ La vista del horario final del docente muestra información relevante como:
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-25 172732.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Nota:** consultar los formatos disponibles en la sección #formatos-de-descarga(../otros/importante.md#formatos-de-descarga "mention")
+**Nota:** consultar los formatos disponibles en la sección [#formatos-de-descarga](../otros/importante.md#formatos-de-descarga "mention")
 {% endhint %}
