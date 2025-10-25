@@ -67,3 +67,16 @@ En esta sección se debe completar la información necesaria e importante que se
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-13 180156.png" alt=""><figcaption></figcaption></figure>
 
 Cuando todos los campos estén completos, el sistema permitirá guardar los cambios.
+
+### Configuraciones de Acceso para Docentes
+
+En esta sección se pueden definir las configuraciones de acceso para los docentes, permitiendo gestionar quiénes pueden ver y editar los horarios.
+
+1. **Permitir acceso a todos los docentes:** Al activar esta opción, todos los docentes tendrán acceso para ver y editar su horario de trabajo.
+2. **Permitir acceso a ver su horario final:** Al activar esta opción, los docentes podrán ver su horario final, pero no podrán realizar modificaciones.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-25 175357.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Nota:** activar las opciones según las necesidades de gestión de horarios en la institución.
+{% endhint %}
