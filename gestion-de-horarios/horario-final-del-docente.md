@@ -10,6 +10,40 @@ En esta página se consulta el **avance** o **horario final del docente**, donde
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-12 181902.png" alt=""><figcaption></figcaption></figure>
 
+## Modificar horario individualmente
+
+Es posible modificar el horario de un docente de manera individual, para ello se requiere realizar estos pasos:
+
+* [#nuevo-docente](../recursos-academica/docentes.md#nuevo-docente "mention")
+* [#nuevo-semestre](../recursos-academica/semestres.md#nuevo-semestre "mention")
+* [#asignar-materias-a-docentes](../relaciones/docentes-con-materias.md#nueva-relación-entre-materia-y-docente "mention")
+
+Una vez realizados estos pasos, se puede proceder a modificar el horario del docente mediante el botón que se muestra en la pantalla del horario final del docente.
+
+<figure><img src="../.gitbook/assets/horario-final-modificar.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+**Importante:** esto debe realizarse al final de la elaboración del horario por grupos, ya que al modificar el horario individualmente, provocará conflictos si posteriormente se realizan cambios en los horarios por grupos.
+{% endhint %}
+
+Se abrirá una nueva ventana donde se podrá ajustar el horario del docente según sea necesario.
+
+Se mostrarán todas las materias asignadas al docente, junto con los días y horas en los que imparte clases. Se pueden realizar cambios en el horario, como agregar o eliminar las materias, para adaptarlo a las necesidades del docente.
+
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-25 174111.png" alt=""><figcaption></figcaption></figure>
+
+Solo se debe agregar las materias que se impartiran fuera del horario establecido por grupos, ya que las materias que ya están en el horario no se deben agregar nuevamente.
+
+<figure><img src="../.gitbook/assets/horario-modificado.png" alt=""><figcaption></figcaption></figure>
+
+Al finalizar los cambios, se debe hacer clic en el botón **Guardar** para que las modificaciones se apliquen al horario del docente.
+
+<figure><img src="../.gitbook/assets/horario-guardar.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Nota:** el funcionamiento de esto es similar al de horario por grupo, se debe arrastra y soltar las materias en la tabla y en ese instante el sistema hará las validaciones correspondientes.
+{% endhint %}
+
 ## Funciones principales
 
 Para acceder al horario final de un docente, es necesario haber completado previamente algunos pasos, ya que la información mostrada depende de los datos registrados. Los pasos previos son:
@@ -55,8 +89,8 @@ La vista del horario final del docente muestra información relevante como:
 **Nota:** Si el nombre de la materia es demasiado largo y no se muestra completo, se puede colocar el cursor sobre el texto para visualizar el nombre completo mediante un mensaje flotante.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-12 183552.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-10-25 172732.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Nota:** consultar los formatos disponibles en la sección [#formatos-de-descarga](../otros/importante.md#formatos-de-descarga "mention")
+**Nota:** consultar los formatos disponibles en la sección (../otros/importante.md#formatos-de-descarga "mention")
 {% endhint %}

@@ -20,14 +20,14 @@ layout:
 
 ## Sistema Web de Elaboración de Horarios (SWEH)
 
-Bienvenido a la **documentación oficial del Sistema Web de Elaboración de Horarios (SWEH)** del **COBAEV 16 PLANTEL**.\
+Bienvenido a la **documentación oficial del Sistema Web de Elaboración de Horarios (SWEH)** del **COBAEV PLANTEL 16**.\
 Este sistema fue desarrollado con el objetivo de **optimizar la creación, organización y administración de horarios escolares**, ofreciendo una experiencia moderna, ágil y fácil de usar tanto para docentes como para administradores.
 
 ***
 
 ## Acceso al sistema
 
-> 📎 **Sitio web oficial:** [https://sistemahorarios.me](https://sistemahorarios.me/login)
+> 📎 **Sitio web oficial:** [https://sistemahorarios.me](https://sistemahorarios.me)
 
 El sistema es accesible desde cualquier navegador moderno y permite gestionar:
 
