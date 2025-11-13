@@ -27,3 +27,4 @@
 * [Gestionar credenciales docente](otros/gestionar-credenciales-docente.md)
 * [Configuración](otros/configuracion.md)
 * [Importante](otros/importante.md)
+* [Recomendaciones](otros/recomendaciones.md)
