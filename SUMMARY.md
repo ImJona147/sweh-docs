@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Inicio](README.md)
+* [Recomendaciones](recomendaciones.md)
 * [Primeros pasos](comenzar-interaccion.md)
 
 ## recursos académica
@@ -27,4 +28,3 @@
 * [Gestionar credenciales docente](otros/gestionar-credenciales-docente.md)
 * [Configuración](otros/configuracion.md)
 * [Importante](otros/importante.md)
-* [Recomendaciones](otros/recomendaciones.md)
