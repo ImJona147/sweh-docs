@@ -26,14 +26,6 @@ Este proceso de deberá estar realizando si por algún motivo se cambia de prove
 
 {% embed url="https://youtu.be/0cyCV-dA5F4" %}
 
-## Traspasar dominio de Hostinger a Cloudflare
-
-Estos pasos aun están pendientes.
-
-## Desactivar renovación automática
-
-Estos pasos aun están pendientes.
-
 ## Crear base de datos vacía
 
 Para realizar todo lo del siguiente video se requiere usar lo siguiente para evitar problemas.
